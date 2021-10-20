@@ -1,0 +1,19 @@
+﻿Databases:
+  SQLite:
+    Path: C:\Users\Administrator\Documents\daka.data.db
+
+MinIO:
+  EndPoint: 127.0.0.1:9001
+  APIEndPoint: 127.0.0.1:9000
+  UseSsl: false
+  FileBucket: file
+  ImageBucket: image
+  ReportBucket: report
+  AccessKey: dakapath
+  SecertKey: Dapath888$
+
+System:
+  Title: 杭州大伽文件服务接口系统
+  Company: 杭州大伽信息科技有限公司
+  TempPath: Temp
+  TempCleanJobCron: 0 0/1 * * * ?
